@@ -3,7 +3,7 @@ ob_start();
 session_start();
 $check=0;
 if(isset($_POST['car'])){$car=$_POST['car'];
-	$xml=simplexml_load_file("../db/cars.xml") or die("Error: Cannot create object");
+	$xml=simplexml_load_file("cars.xml") or die("Error: Cannot create object");
 		$sizearray= count($xml);
 		for($i=0;$i<$sizearray;$i++){
 			if($xml->car[$i]->carimage==$car){
