@@ -1,5 +1,5 @@
 <?php
-        $xml=simplexml_load_file("../db/cars.xml") or die("Error: Cannot create object");
+        $xml=simplexml_load_file("cars.xml") or die("Error: Cannot create object");
 		$sizearray= count($xml);
 		for($i=0;$i<$sizearray;){?>
             <section class="car-card" <?php if($xml->car[$i]->availability=='N'){echo "style='opacity:.5;'";}?>>
