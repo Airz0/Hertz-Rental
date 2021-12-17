@@ -1,0 +1,276 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+}
+
+.all-wrapper {
+	display: block;
+	margin: 0 auto;
+}
+
+header {
+	background: #0e1b38;
+}
+
+header h1 {
+	color: #FFFFFF;
+}
+
+header .site-identity {
+	display: inline-block;
+	padding: 20px 10px;
+}
+
+header .menu-wrapper {
+	float: right;
+	display: inline-block;
+	padding: 20px;
+}
+
+header .menu-wrapper .cart-button {
+	cursor: pointer;
+	padding: 20px;
+	font-size: 18px;
+	border: solid 2px #01091c;
+	color: #01091c;
+	background: #193063;
+	border-radius: 10px;
+	transition: all .5s;
+	margin-top: 20px;
+}
+
+header .menu-wrapper .goback-button {
+	cursor: pointer;
+	padding: 20px;
+	font-size: 18px;
+	border: solid 2px #01091c;
+	color: #01091c;
+	background: #fff;
+	border-radius: 10px;
+	transition: all .5s;
+}
+
+header .menu-wrapper .cart-button:hover {
+	background: #153a94;
+	color: #FFFFFF;
+}
+
+.content-wrapper {
+	text-align: center;
+}
+
+.content-wrapper .car-card {
+	display: inline-block;
+	border: solid 1px #F0F0F0;
+	margin: 30px;
+	transform: skewX(4deg);
+	box-shadow: -10px -4px 10px -4px;
+	transition: all .5s;
+	border-radius: 5px;
+}
+
+.content-wrapper .car-card:hover {
+	transform: skewX(0deg);
+	box-shadow: 0px 0px 10px -4px;
+}
+
+.content-wrapper .car-card .car-image-wrapper img {
+	width: 275px;
+}
+
+.content-wrapper .car-card .car-detail-wrapper {
+	background: #F0F0F0;
+	padding: 10px 20px;
+	text-align: left;
+}
+
+.content-wrapper .car-card .car-detail-wrapper .title {
+	font-weight: 100;
+	display: inline-block;
+}
+
+.content-wrapper .car-card .car-detail-wrapper .title-text {
+	font-weight: 900;
+	display: inline-block;
+	color: #2151c4;
+}
+
+.content-wrapper .car-card .car-detail-wrapper h2 {
+	text-align: center;
+}
+
+.content-wrapper .car-card .car-detail-wrapper .text-wrapper p {
+	max-width: 270px;
+}
+
+.content-wrapper .car-card .car-detail-wrapper .text-wrapper .add-to-cart-button {
+	padding: 5px 20px;
+	background: #FFFFFF;
+	display: inline-block;
+	border: solid 1px #2151c4;
+	cursor: pointer;
+}
+
+.content-wrapper-cart {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	max-width: 1000px;
+}
+
+.cart-items-container tr:nth-child(1) {
+	font-weight: 900;
+}
+
+.cart-items-container tr:nth-child(2n) {
+	background: rgba(245, 245, 245, 1);
+}
+
+.cart-items-container tr td {
+	text-align: center;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.cart-items-container tr td img {
+	width: 200px;
+}
+
+.totalamount {
+	font-size: 24px;
+	background: rgba(0, 51, 204, 1);
+	color: rgba(255, 255, 255, 1);
+}
+
+#bookbutton {
+	padding: 20px;
+}
+
+.content-wrapper-checkout {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	max-width: 1000px;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.block {
+	display: block;
+}
+
+.checkout {}
+
+.checkout h2 {
+	font-size: 36px;
+}
+
+.checkout .inline {
+	width: 300px;
+	font-size: 18px;
+}
+
+.checkout .block {
+	margin: 20px;
+}
+
+.checkout input {
+	padding: 10px;
+	width: 100%;
+	margin: 0;
+}
+
+.checkout .amt {
+	background-color: #C00;
+	color: #FFF;
+	padding: 10px;
+	width: 100px;
+}
+
+.checkout #checkout {
+	padding: 20px;
+	font-size: 24px;
+	background: #09C;
+	color: #FFF;
+}
+
+@media only screen and (min-width: 500px) {
+	.all-wrapper {
+		width: 500px;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.all-wrapper {
+		width: 600px;
+	}
+}
+
+@media only screen and (min-width: 700px) {
+	.all-wrapper {
+		width: 700px;
+	}
+}
+
+@media only screen and (min-width: 800px) {
+	.all-wrapper {
+		width: 800px;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.all-wrapper {
+		width: 900px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.all-wrapper {
+		width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.all-wrapper {
+		width: 1200px;
+	}
+}
+
+@media only screen and (min-width: 1400px) {
+	.all-wrapper {
+		width: 1400px;
+	}
+}
+
+@media only screen and (min-width: 1600px) {
+	.all-wrapper {
+		width: 1600px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	.all-wrapper {
+		width: 1800px;
+	}
+}
+
+@media only screen and (min-width: 2000px) {
+	.all-wrapper {
+		width: 2000px;
+	}
+}
+
+@media only screen and (min-width: 3500px) {
+	.all-wrapper {
+		width: 3500px;
+	}
+}
+
+@media only screen and (min-width: 4000px) {
+	.all-wrapper {
+		width: 4000px;
+	}
+}

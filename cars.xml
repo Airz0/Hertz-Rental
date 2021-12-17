@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<car-db>
+	<car>
+		<carimage>1559349695Camry</carimage>
+		<category>Sedan</category>
+		<availability>Y</availability>
+		<brand>Toyota</brand>
+		<model>Camry</model>
+		<modelyear>2018</modelyear>
+		<mileage>15,000</mileage>
+		<fuel>Petrol</fuel>
+		<seats>5</seats>
+		<rent>500</rent>
+		<description>The eye-catching Camry Ascent blends brilliance with beauty to turn heads and leave a lasting impression. Available in Hybrid and Petrol.</description>
+	</car>
+	<car>
+		<carimage>1559349695Captiva</carimage>
+		<category>SUV</category>
+		<availability>N</availability>
+		<brand>Chevrolet</brand>
+		<model>Captiva</model>
+		<modelyear>2019</modelyear>
+		<mileage>14,000</mileage>
+		<fuel>Petrol</fuel>
+		<seats>7</seats>
+		<rent>1000</rent>
+		<description>The Chevrolet Captiva is a compact crossover SUV that was developed by the South Korean manufacturer Daewoo, and has been sold by Chevrolet since 2006.</description>
+	</car>
+	<car>
+		<carimage>1559349696Cherokee</carimage>
+		<category>SUV</category>
+		<availability>Y</availability>
+		<brand>Jeep</brand>
+		<model>Grand Cherokee</model>
+		<modelyear>2019</modelyear>
+		<mileage>12,000</mileage>
+		<fuel>Petrol</fuel>
+		<seats>7</seats>
+		<rent>1100</rent>
+		<description>The Jeep Cherokee is a line of American vehicles sold by Jeep under various vehicle classes.</description>
+	</car>
+	<car>
+		<carimage>1559349696Civic</carimage>
+		<category>Sedan</category>
+		<availability>Y</availability>
+		<brand>Honda</brand>
+		<model>Civic</model>
+		<modelyear>2018</modelyear>
+		<mileage>17,000</mileage>
+		<fuel>Diesel</fuel>
+		<seats>5</seats>
+		<rent>400</rent>
+		<description>The 2019 Honda Civic epitomizes compact-car excellence with its mix of practicality and a fun-to-drive personality.</description>
+	</car>
+	<car>
+		<carimage>1559349696GLC</carimage>
+		<category>Sedan</category>
+		<availability>N</availability>
+		<brand>Mercedes-Benz</brand>
+		<model>GLC</model>
+		<modelyear>2018</modelyear>
+		<mileage>11,000</mileage>
+		<fuel>Petrol</fuel>
+		<seats>5</seats>
+		<rent>800</rent>
+		<description>The GLC is luxury compact SUV. It delivers on almost every front, providing an enjoyable driving experience.</description>
+	</car>
+	<car>
+		<carimage>1559349696Golf</carimage>
+		<category>Hatchback</category>
+		<availability>Y</availability>
+		<brand>Volkswagen</brand>
+		<model>Golf</model>
+		<modelyear>2019</modelyear>
+		<mileage>16,000</mileage>
+		<fuel>CNG</fuel>
+		<seats>5</seats>
+		<rent>500</rent>
+		<description>The Volkswagen Golf Mk6 is a compact car, the sixth generation of this Volkswagen Golf.</description>
+	</car>
+	<car>
+		<carimage>1559349696Jimny</carimage>
+		<category>Hatchback</category>
+		<availability>Y</availability>
+		<brand>Maruti Suzuki</brand>
+		<model>Jimny</model>
+		<modelyear>2018</modelyear>
+		<mileage>12,000</mileage>
+		<fuel>Petrol</fuel>
+		<seats>5</seats>
+		<rent>600</rent>
+		<description>The Jimny is a surprisingly fun car to drive in the city and suburbs, and even on a winding road – mainly because it's so light and manoeuvrable.</description>
+	</car>
+	<car>
+		<carimage>1559349696Sonata</carimage>
+		<category>Sedan</category>
+		<availability>Y</availability>
+		<brand>Hyundai</brand>
+		<model>Sonata</model>
+		<modelyear>2018</modelyear>
+		<mileage>13,000</mileage>
+		<fuel>Petrol</fuel>
+		<seats>5</seats>
+		<rent>550</rent>
+		<description>The Hyundai Sonata offers thrilling performance, the latest tech features and a sporty design.</description>
+	</car>
+	<car>
+		<carimage>1559349696X-trail</carimage>
+		<category>SUV</category>
+		<availability>N</availability>
+		<brand>Nissan</brand>
+		<model>Trail</model>
+		<modelyear>2019</modelyear>
+		<mileage>14,00</mileage>
+		<fuel>Petrol</fuel>
+		<seats>7</seats>
+		<rent>875</rent>
+		<description>Mid-sized Nissan X-Trail is spacious and available with seven-seat versions.</description>
+	</car>
+	<car>
+		<carimage>1559349695320i</carimage>
+		<category>Sedan</category>
+		<availability>Y</availability>
+		<brand>BMW</brand>
+		<model>320i</model>
+		<modelyear>2018</modelyear>
+		<mileage>10,000</mileage>
+		<fuel>Petrol</fuel>
+		<seats>5</seats>
+		<rent>700</rent>
+		<description>The BMW 3 Series is a compact executive car manufactured by the German automaker BMW since May 1975.</description>
+	</car>
+</car-db>
