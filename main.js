@@ -1,6 +1,6 @@
 $(document).ready(function(e) {
-	$('.content-wrapper').load("php/content.php")
-	$('.cart-button').load("php/cart_update.php")
+	$('.content-wrapper').load("content.php")
+	$('.cart-button').load("cart_update.php")
 	var sum = 0;
 	$('.total-cost').each(function() {
 		$('.totalamount').html(sum += parseFloat($(this).text()));
@@ -21,7 +21,7 @@ $('.content-wrapper-cart .cart-items-container tr td input').change(function() {
 
 function addtocart(value) {
 	$.ajax({
-		url: "php/check_availability.php?",
+		url: "check_availability.php?",
 		type: 'POST',
 		data: { car: value },
 		success: function(result) {
@@ -30,7 +30,7 @@ function addtocart(value) {
 			}
 			else if (result == 1) {
 				alert("Add to the cart successfully");
-				$('.cart-button').load("php/cart_update.php")
+				$('.cart-button').load("cart_update.php")
 			}
 			else if (result == 2) {
 				alert("Already in cart");
@@ -43,7 +43,7 @@ function addtocart(value) {
 }
 $('.cart-button').click(function() {
 	$.ajax({
-		url: "php/check_cart.php?",
+		url: "check_cart.php?",
 		type: 'POST',
 		success: function(result) {
 			if (result == 1) { window.location.replace("cart.php"); }
@@ -54,7 +54,7 @@ $('.cart-button').click(function() {
 
 function deletefromcart(carname) {
 	$.ajax({
-		url: "php/delete_cart.php?",
+		url: "delete_cart.php?",
 		type: 'POST',
 		data: { car: carname },
 		success: function(result) {
@@ -77,7 +77,7 @@ $('#bookbutton').click(function() {
 		store_days[i] = $('.cart-items-container tr:eq(' + (i + 1) + ') input').val()
 		store_totalcost[i] = $('.cart-items-container tr:eq(' + (i + 1) + ') .total-cost').html()
 	}
-	$('.content-wrapper-cart').load('php/checkout.php');
+	$('.content-wrapper-cart').load('checkout.php');
 	setTimeout(function() { $('.amt').html(grandtotal) }, 500)
 })
 
@@ -88,12 +88,12 @@ function checkout() {
 	$.ajax({
 		type: "POST",
 		data: { vehicle: store_vehicle, price: store_price, totalcost: store_totalcost, days: store_days, grandtotal: grandtotal },
-		url: "php/compile_message.php",
+		url: "compile_message.php",
 		success: function(msg) {
 			$.ajax({
 				type: "POST",
 				data: { msg: msg, name: name, email: email, address: address },
-				url: "php/send_mail.php",
+				url: "send_mail.php",
 				success: function(result) {
 					if (result == 0) { alert("Please check entered details"); }
 					else if (result == 1) {
