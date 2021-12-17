@@ -1,6 +1,6 @@
 <?php session_start();
 if(isset($_SESSION['car'])){}
-else{header("Location:../index.php");}
+else{header("Location:index.php");}
 if (isset($_POST['name'])&&isset($_POST['email'])&&isset($_POST['address'])&& isset($_POST['msg']) && $_POST['name']!="" && $_POST['email']!="" && $_POST['address']!="" &&  $_POST['msg']!=""){
 	$textpat="/^[a-zA-Z][a-zA-Z\\s]+$/";
 	$name=$_POST['name'];
@@ -10,7 +10,7 @@ if (isset($_POST['name'])&&isset($_POST['email'])&&isset($_POST['address'])&& is
 	if (!filter_var($email, FILTER_VALIDATE_EMAIL)){echo "2";}
 		else{
 	
-	$tempMail="noreply@utshertzrental.service";
+	$tempMail="noreply@hertzrental.service";
 	$to =$email; 
 	$email_subject = "Purchase Confirmation";
 	$email_body = 'from'. $email. 'Message <br>'.$msg; 
@@ -27,7 +27,7 @@ if (isset($_POST['name'])&&isset($_POST['email'])&&isset($_POST['address'])&& is
 else{echo 0;}
 	function destroyallsessions(){
 		session_destroy();
-		header("LOCATION:../index.php");
+		header("LOCATION:index.php");
 		}
 
 ?>
