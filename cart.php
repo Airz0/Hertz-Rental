@@ -29,7 +29,7 @@ else{header("Location:index.php");}
                 </tr>
                 <?php
 				$countrows= count($_SESSION["car"]);
-				$xml=simplexml_load_file("db/cars.xml") or die("Error: Cannot create object");
+				$xml=simplexml_load_file("cars.xml") or die("Error: Cannot create object");
 				$sizearray= count($xml);
 				for($i=0;$i<$countrows;$i++){
 					for($j=0;$j<$sizearray;$j++){
