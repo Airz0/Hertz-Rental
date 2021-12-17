@@ -1,6 +1,6 @@
 <?php session_start();
 if(isset($_SESSION['car'])){}
-else{header("Location:../index.php");}
+else{header("Location:index.php");}
 ?>
         	<div class="checkout">
             <h2>Checkout</h2>
